@@ -7,12 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda hear</title>
     <link rel="stylesheet" href=" 	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
@@ -28,15 +30,15 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">shose</a>
+                            <a class="nav-link" href="#shoes">shose</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">backpack</a>
+                            <a class="nav-link" href="#backpack">backpack</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subcribe</a>
+                            <a class="nav-link" href="#subcribe">Subcribe</a>
                         </li>
 
                 </div>
@@ -49,7 +51,7 @@
 
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active border rounded  p-5 bg-success">
+                    <div class="carousel-item active border rounded  p-5  Panda">
                         <div class="row">
 
                             <div class="col-7  d-flex align-items-center ">
@@ -60,7 +62,7 @@
                                         in
                                         font-world</P>
                                     <h1> $400</h1>
-                                    <button class="btn btn-primary"> Buy Now</button>
+                                    <button class="btn btn-color"> Buy Now</button>
                                 </div>
                             </div>
 
@@ -70,7 +72,7 @@
                         </div>
                     </div>
 
-                    <div class="carousel-item active bg-success p-5 border rounded">
+                    <div class="carousel-item active panda p-5 border rounded">
                         <div class="row">
 
                             <div class="col-7  d-flex align-items-center ">
@@ -81,7 +83,7 @@
                                         in
                                         font-world</P>
                                     <h1> $400</h1>
-                                    <button class="btn btn-primary"> Buy Now</button>
+                                    <button class="btn btn-color"> Buy Now</button>
                                 </div>
                             </div>
 
@@ -92,7 +94,7 @@
                     </div>
 
 
-                    <div class="carousel-item active  p-5 bg-success">
+                    <div class="carousel-item active  p-5  panda">
                         <div class="row">
 
                             <div class="col-7 d-flex align-items-center">
@@ -103,7 +105,7 @@
                                         in
                                         font-world</P>
                                     <h1> $400</h1>
-                                    <button class="btn btn-primary"> Buy Now</button>
+                                    <button class="btn btn-color"> Buy Now</button>
                                 </div>
                             </div>
 
@@ -137,7 +139,7 @@
 
         <!-- categories start -->
 
-        <section>
+        <section class="categories">
             <div class="container text-center my-5">
                 <div class="row g-2">
 
@@ -174,7 +176,7 @@
 
         <!-- shoes style start -->
 
-        <section class=" container my-5">
+        <section class=" container my-5" id="shoes">
             <h1 class="text-black">Shoes</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -188,7 +190,7 @@
 
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-primary "> Buy Now</button>
+                            <button class="btn btn-color"> Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -201,7 +203,7 @@
                                 content.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning "> Buy Now</button>
+                            <button class="btn btn-color "> Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -215,7 +217,7 @@
                                 height action.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning"> Buy Now</button>
+                            <button class="btn btn-color"> Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -228,9 +230,9 @@
         <!-- backpack design -->
 
 
-        <!-- shoes style start -->
 
-        <section class=" container my-5">
+
+        <section class=" container my-5" id="backpack">
             <h1 class="text-black">Backpack</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -245,7 +247,7 @@
 
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-primary "> Buy Now</button>
+                            <button class="btn btn-color "> Buy Now</button>
                         </div>
                     </div>
 
@@ -264,7 +266,7 @@
                                 height action.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning"> Buy Now</button>
+                            <button class="btn btn-color"> Buy Now</button>
                         </div>
 
                     </div>
@@ -276,14 +278,14 @@
                         <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">blue calor bag</h5>
-                            <h2 class="text-black"> $600</h2>
+                            <h2 class="text-black"> $700</h2>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                                 additional content.Magna et sit labore clita ut diam voluptua elitr, et. This card has
                                 even longer content than the first to show that equal
                                 height action.</p>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning"> Buy Now</button>
+                            <button class="btn btn-color"> Buy Now</button>
                         </div>
 
                     </div>
@@ -291,8 +293,35 @@
 
         </section>
         <!-- backpack end -->
+
+
+        <!-- submit section start  -->
+
+
+        <section style="height:300px" class="container rounded-3 panda d-flex justify-content-center align-items-center"
+            id="subcribe">
+
+            <div>
+                <h1> Let me then other</h1>
+                <p> I am other people so no tention just enoys lile </p>
+                <form>
+                    <div class="mb-1">
+                        <input type="text" name="" id="">
+                    </div>
+                    <button class="btn btn-color"> Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Submit section end  -->
     </main>
 
+    <footer class="mt-5 text-center">
+
+        <p> <small>
+                &copy;2023 than proundful her is man Rifazul
+            </small></p>
+    </footer>
 
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"> </script>
 </body>
